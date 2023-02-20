@@ -58,8 +58,8 @@ export const introductionData = {
 export const aboutMeData = {
     title: "Yucheng Lin",
     description: "I am currently a CS major senior in University of Wisconsin Madison. I am passionate about technology, specifically in the field of software development and front-end development. I am looking for a full-time software development or web development position after graduation. I am a fast learner and a team player. I am also a hard worker and a self-motivated person. I am willing to learn new things and I am always open to new opportunities.",
-    titleURL: "View CV",
-    urlCV: "https://docs.google.com/document/d/e/2PACX-1vT2AlUZWSLEqohaKXB7KbGmXfpXidRHiC568hWalEQzVgIFwp7AMUAzcHg2FpjmCEXjk28r0p-3Rp45/pub"
+    titleURL: "View Resume",
+    urlCV: "https://drive.google.com/file/d/1ZEE-vvQLxc1bGFgRisrR1fJ8iUwTCSzA/view?usp=sharing"
 }
 
 
@@ -81,6 +81,10 @@ export const skillsData = [
         nameSkill: "JavaScript"
     },
     {
+        img: "assets/node.svg",  // card image  > insert the svg image in the assets folder
+        nameSkill: "Node.js"      //  card name
+    },
+    {
         img: "assets/react.svg",
         nameSkill: "React"
     },
@@ -95,22 +99,23 @@ export const skillsData = [
 //=========================================
 export const projectsData = [
     {
-        title: "PROJECT TITLE",    // card image  > insert the svg image in the assets folder
-        describe: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam veritatis iusto reiciendisquos, delectus in deserunt harum a. Rerum similique corporis sit odit error incidunt distinctio consectetur neque, cum illum?",
-        url: "#",  // url of the Github repository
-        img: "assets/project1.jpg"  //image Project
+        title: "Zenind Software Developer Engineer Intern",    // card image  > insert the svg image in the assets folder
+        describe: 
+        "Implement RESTful APIs and CRUD operations for the backend of the web application using Node.js, Express, and MongoDB.",
+        url: "https://www.zenind.com/en-US",  // url of the Github repository
+        img: "assets/intern-1.png"  //image Project
     },
     {
-        title: "PROJECT TITLE",
-        describe: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam veritatis iusto reiciendisquos, delectus in deserunt harum a. Rerum similique corporis sit odit error incidunt distinctio consectetur neque, cum illum?",
-        url: "#",
-        img: "assets/project1.jpg"
+        title: "Wicky Web Developer Intern",
+        describe: "Developed a flexible and modular web application for PC by defining over 10 reusable components using React, React Router, and Redux.",
+        url: "https://www.limewhale.com/",
+        img: "assets/intern-2.png"
     },
     {
-        title: "PROJECT TITLE",
-        describe: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam veritatis iusto reiciendisquos, delectus in deserunt harum a. Rerum similique corporis sit odit error incidunt distinctio consectetur neque, cum illum?",
-        url: "#",
-        img: "assets/project1.jpg"
+        title: "Data Visualization Course Team Project",
+        describe: "Lead team to develop an interactive web application which allows users to move food item bubbles around the screen and make improvements on their diets.",
+        url: "https://hideinsky.github.io/Data_Visualization/index.html",
+        img: "assets/project-3.png"
     }
 ]
 

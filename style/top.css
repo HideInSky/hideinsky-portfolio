@@ -19,6 +19,7 @@ html, body{
     text-align: center;
     color: #272341;
     position: absolute;
+    
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
@@ -26,6 +27,7 @@ html, body{
 
 h1 {
     font-size: 40px;
+    font-family: 'Mynerve', cursive;
     margin: 0;
 }
 
