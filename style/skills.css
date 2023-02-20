@@ -1,0 +1,29 @@
+.skills {
+    background-color: rgb(243, 241, 241);
+    padding: 10px, 20px;
+}
+
+.cards-main{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    grid-column-gap: 25px;
+    grid-row-gap: 1em;    
+    padding: 20px 50px;
+}
+
+.card{ 
+    background-color: #fff;   
+    padding: 2rem;
+    cursor: pointer;
+    border-radius: 10px;
+    transform: scale(.98);
+}
+
+.card:hover {
+    transform: scale(1.02);
+}
+
+.img-card{
+    height: 100px;
+    width: 100px;
+}
