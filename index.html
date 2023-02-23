@@ -4,7 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mynerve&display=swap" rel="stylesheet">
     <!-- Animation On Scroll Library -->
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
@@ -14,9 +16,7 @@
     <link href="style/about.css" type="text/css" rel="stylesheet">
     <link href="style/footer.css" type="text/css" rel="stylesheet">
     <link href="style/projects.css" type="text/css" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Mynerve&display=swap" rel="stylesheet">
+    
    
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
@@ -40,10 +40,12 @@
     <div id="top">
 
 
-        <div class="header">
-            <h1 class="header-apresentation">
+        <div class="header" >
+            <h1 class="header-apresentation" style="font-family: 'Mynerve', cursive;">
                <!-- Rendered in file ./js/renderTemplate > TEMPLATE YOURNAME <.header-apresentation> -->
+                Hi, I am
             </h1>
+            <h1 style="font-family: 'Mynerve', cursive;"> <span class="gradient">Yucheng Lin</span></h1>
        
             <div class="header-icons">
                 
@@ -52,7 +54,7 @@
 
             </div>
 
-            <p class="nav">
+            <p class="nav" style="font-family: 'Mynerve', cursive;">
                <!-- Rendered in file ./js/renderTemplate >   TEMPLATE OPTIONS NAV  <.nav> -->
             </p>
 
@@ -64,7 +66,6 @@
             <i class="fa fa-chevron-down"></i>
         </a>
 
-    </div>
 
     <!-- About section -->
     <span id="about">&nbsp</span>
@@ -138,8 +139,6 @@
     
     <script>
       
-
-
         var topButton = document.getElementById("top-button");
 
         document.addEventListener("scroll", scrollFunction);

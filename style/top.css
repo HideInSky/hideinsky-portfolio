@@ -6,7 +6,6 @@ html, body{
 
 #top {
     background-color: #fff;
-    font-family: 'Roboto Mono', monospace;
     display: flex;
     vertical-align: bottom;
     width: 100%;
@@ -26,15 +25,14 @@ html, body{
 }
 
 h1 {
-    font-size: 40px;
-    font-family: 'Mynerve', cursive;
-    margin: 0;
+    font-size: 50px;
+    margin: auto;
 }
 
 .nav {
     font-size: 20px;
     font-weight: 700;
-    margin-top: 40px;
+    margin-top: 50px;
 }
 
 .btn{

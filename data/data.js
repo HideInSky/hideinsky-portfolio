@@ -1,16 +1,9 @@
-
-
-// !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-// HERE ALL THE DATA FROM THE WEB PAGE WILL BE INSERTED
-// !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-
-
 //=========================================
 // INTRODUCTION
 //=========================================
 export const introductionData = {
     // Hi, my name is....
-    yourName: "Yucheng Lin", // Insert your name
+    yourName: "", // Insert your name
     socialNetwork: [
         {
             icon: "fa fa-envelope-o",  // find other icon in https://fontawesome.com/v4.7/icons/
@@ -23,7 +16,7 @@ export const introductionData = {
             url: "https://www.linkedin.com/in/yucheng-lin-12b422195/"
         },
         {
-            icon: "fa fa-github-alt",   // find other icon in https://fontawesome.com/v4.7/icons/
+            icon: "fa fa-github",   // find other icon in https://fontawesome.com/v4.7/icons/
             nameSocialNetwork: "Github",
             url: "https://github.com/HideInSky"
         }
@@ -57,7 +50,7 @@ export const introductionData = {
 //=========================================
 export const aboutMeData = {
     title: "Yucheng Lin",
-    description: "I am currently a CS major senior in University of Wisconsin Madison. I am passionate about technology, specifically in the field of software development and front-end development. I am looking for a full-time software development or web development position after graduation. I am a fast learner and a team player. I am also a hard worker and a self-motivated person. I am willing to learn new things and I am always open to new opportunities.",
+    description: "I am a CS senior in UW-Madison. I am passionate about technology. I am interested in both software development and web development. During my past years in college, I built java and python projects either individually or collboratively to fully understand the programming languages. During the past summers, I attended two interns both related to web development. Currently I am building individual web development MERN stack project. I am activly looking for full-time software development engineer or web development developer position that may include visa sponsorship. I am a proactive person and looking for any opportunities to learn new skills and technologies that may contribute to your company. Thank you for reading through, wish you have a nice and happy day!",
     titleURL: "View Resume",
     urlCV: "https://drive.google.com/file/d/1ZEE-vvQLxc1bGFgRisrR1fJ8iUwTCSzA/view?usp=sharing"
 }
@@ -69,9 +62,6 @@ export const aboutMeData = {
 //                 SKILLS 
 //=========================================
 export const skillsData = [
-
-
-    
     {
         img: "assets/java.svg",
         nameSkill: "Java"
@@ -92,6 +82,10 @@ export const skillsData = [
         img: "assets/python.svg",  // card image  > insert the svg image in the assets folder
         nameSkill: "Python"      //  card name
     },
+    {
+        img: "assets/bootstrap.svg",  // card image  > insert the svg image in the assets folder
+        nameSkill: "Bootstrap" 
+    }
 
 ]
 //=========================================
@@ -107,7 +101,7 @@ export const projectsData = [
     },
     {
         title: "Wicky Web Developer Intern",
-        describe: "Developed a flexible and modular web application for PC by defining over 10 reusable components using React, React Router, and Redux.",
+        describe: "Developed a flexible and modular client web application for PC by defining over 10 reusable components using React, React Router, Bootstrap and Redux.",
         url: "https://www.limewhale.com/",
         img: "assets/intern-2.png"
     },

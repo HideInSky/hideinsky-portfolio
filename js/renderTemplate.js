@@ -11,7 +11,7 @@ function render() {
     //---------------------------------------------------
     const templateNameApresentation = function (data) { //yourName
         return `
-    Hi, my name is <span class="gradient">${data}</span>
+    Hi, I'm
     `
     }
 
@@ -64,7 +64,9 @@ function render() {
         return `
         <div class="container">
         <h2 class="section-title">${data.title}</h2>
-
+        <div class="info"> 
+            <p> lin364@wisc.edu | Madison, WI | github:hideinsky </p>
+        </div>
         <div class="description">
            <p> ${data.description}</p>
         </div>
