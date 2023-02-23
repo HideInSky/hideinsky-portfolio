@@ -2,7 +2,10 @@ import { introductionData, skillsData,projectsData,aboutMeData } from '../data/d
 
 
 function render() {
-
+    if (window.location.pathname === '/project-3') {
+        window.location.replace('https://hideinsky.github.io/Data_Visualization/index.html');
+      }
+      
     //=====================================================================
     //                INTRODUCTION 
     //======================================================================

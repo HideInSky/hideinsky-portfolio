@@ -108,7 +108,7 @@ export const projectsData = [
     {
         title: "Data Visualization Course Team Project",
         describe: "Lead team to develop an interactive web application which allows users to move food item bubbles around the screen and make improvements on their diets.",
-        url: "https://hideinsky.github.io/Data_Visualization/index.html",
+        url: "https://hideinsky/project-3.html",
         img: "assets/project-3.png"
     }
 ]
