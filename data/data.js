@@ -52,7 +52,7 @@ export const aboutMeData = {
     title: "Yucheng Lin",
     description: "I am a CS senior in UW-Madison. I am passionate about technology. I am interested in both software development and web development. During my past years in college, I built java and python projects either individually or collboratively to fully understand the programming languages. During the past summers, I attended two interns both related to web development. Currently I am building individual web development MERN stack project. I am activly looking for full-time software development engineer or web development developer position that may include visa sponsorship. I am a proactive person and looking for any opportunities to learn new skills and technologies that may contribute to your company. Thank you for reading through, wish you have a nice and happy day!",
     titleURL: "View Resume",
-    urlCV: "https://drive.google.com/file/d/1ZEE-vvQLxc1bGFgRisrR1fJ8iUwTCSzA/view?usp=sharing"
+    urlCV: "https://drive.google.com/file/d/1EuQ73moxcFAovUeYdsUAYp_1qe1vpG7t/view?usp=sharing"
 }
 
 
